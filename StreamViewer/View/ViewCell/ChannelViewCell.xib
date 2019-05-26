@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ChannelViewCell" customModule="StreamViewer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="70" height="85"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="70" height="85"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Veu-SC-8iE">
+                        <rect key="frame" x="10" y="10" width="50" height="50"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gso-Mq-nl3">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="PQP-VC-aY8"/>
+                            <constraint firstItem="Gso-Mq-nl3" firstAttribute="centerY" secondItem="Veu-SC-8iE" secondAttribute="centerY" id="RrZ-c2-QpO"/>
+                            <constraint firstItem="Gso-Mq-nl3" firstAttribute="centerX" secondItem="Veu-SC-8iE" secondAttribute="centerX" id="bkL-Fs-AjP"/>
+                            <constraint firstItem="Gso-Mq-nl3" firstAttribute="height" secondItem="Veu-SC-8iE" secondAttribute="height" id="jfg-DH-hBD"/>
+                            <constraint firstItem="Gso-Mq-nl3" firstAttribute="width" secondItem="Veu-SC-8iE" secondAttribute="width" id="rZf-OA-v6D"/>
+                            <constraint firstAttribute="width" constant="50" id="uio-Om-fka"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hPt-Vw-9pn">
+                        <rect key="frame" x="45" y="10" width="15" height="15"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="★" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6la-ae-sVN">
+                                <rect key="frame" x="3.5" y="2" width="8" height="11"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6la-ae-sVN" firstAttribute="centerY" secondItem="hPt-Vw-9pn" secondAttribute="centerY" id="FgF-LT-hj2"/>
+                            <constraint firstAttribute="width" constant="15" id="QjK-YE-VoT"/>
+                            <constraint firstAttribute="height" constant="15" id="sjw-R5-Rm5"/>
+                            <constraint firstItem="6la-ae-sVN" firstAttribute="centerX" secondItem="hPt-Vw-9pn" secondAttribute="centerX" id="uKg-T9-RNw"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Channel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJ6-XR-09P">
+                        <rect key="frame" x="12" y="65" width="46.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="BJ6-XR-09P" firstAttribute="top" secondItem="Veu-SC-8iE" secondAttribute="bottom" constant="5" id="4vf-TI-VoZ"/>
+                <constraint firstItem="Veu-SC-8iE" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="65r-6T-Erp"/>
+                <constraint firstItem="Veu-SC-8iE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="h8k-iB-qxh"/>
+                <constraint firstItem="BJ6-XR-09P" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="i6Z-qf-CW6"/>
+                <constraint firstItem="hPt-Vw-9pn" firstAttribute="top" secondItem="Veu-SC-8iE" secondAttribute="top" id="kbN-Li-bYK"/>
+                <constraint firstItem="hPt-Vw-9pn" firstAttribute="trailing" secondItem="Veu-SC-8iE" secondAttribute="trailing" id="za9-vn-EiP"/>
+            </constraints>
+            <connections>
+                <outlet property="badgeLabel" destination="6la-ae-sVN" id="dqi-m0-ADc"/>
+                <outlet property="badgeView" destination="hPt-Vw-9pn" id="JRp-5s-kM4"/>
+                <outlet property="channelImageView" destination="Gso-Mq-nl3" id="mFX-mz-VZM"/>
+                <outlet property="channelOuterView" destination="Veu-SC-8iE" id="7Am-bo-Auj"/>
+                <outlet property="nameLabel" destination="BJ6-XR-09P" id="ieM-wr-YlC"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

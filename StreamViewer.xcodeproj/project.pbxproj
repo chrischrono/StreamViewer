@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0769C2229958F500F3A332 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0769C1229958F500F3A332 /* GradientView.swift */; };
+		FA0769C52299623D00F3A332 /* ChatViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0769C32299623D00F3A332 /* ChatViewCell.swift */; };
+		FA0769C62299623D00F3A332 /* ChatViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0769C42299623D00F3A332 /* ChatViewCell.xib */; };
+		FA16E851229A0F5000FFF47F /* StreamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA16E850229A0F5000FFF47F /* StreamViewModel.swift */; };
+		FA16E853229A131400FFF47F /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA16E852229A131400FFF47F /* DataLoader.swift */; };
+		FA16E855229A145B00FFF47F /* channel.json in Resources */ = {isa = PBXBuildFile; fileRef = FA16E854229A145B00FFF47F /* channel.json */; };
 		FA220D4C2296A49A00BDA38F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220D4B2296A49A00BDA38F /* AppDelegate.swift */; };
-		FA220D4E2296A49A00BDA38F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220D4D2296A49A00BDA38F /* FirstViewController.swift */; };
-		FA220D502296A49A00BDA38F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220D4F2296A49A00BDA38F /* SecondViewController.swift */; };
+		FA220D4E2296A49A00BDA38F /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220D4D2296A49A00BDA38F /* StreamViewController.swift */; };
+		FA220D502296A49A00BDA38F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220D4F2296A49A00BDA38F /* SearchViewController.swift */; };
 		FA220D532296A49A00BDA38F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA220D512296A49A00BDA38F /* Main.storyboard */; };
 		FA220D552296A49C00BDA38F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA220D542296A49C00BDA38F /* Assets.xcassets */; };
 		FA220D582296A49C00BDA38F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA220D562296A49C00BDA38F /* LaunchScreen.storyboard */; };
 		FA220D632296A49C00BDA38F /* StreamViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220D622296A49C00BDA38F /* StreamViewerTests.swift */; };
+		FA220D712296A9E300BDA38F /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220D702296A9E300BDA38F /* NotificationViewController.swift */; };
+		FA220D732296AA0200BDA38F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220D722296AA0200BDA38F /* ProfileViewController.swift */; };
+		FA220D782296AE4300BDA38F /* ChannelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA220D762296AE4300BDA38F /* ChannelViewCell.swift */; };
+		FA220D792296AE4300BDA38F /* ChannelViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA220D772296AE4300BDA38F /* ChannelViewCell.xib */; };
+		FA6D9AD6229AC49800B97642 /* LikeButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D9AD5229AC49800B97642 /* LikeButtonViewModel.swift */; };
+		FA6D9AD8229AC99B00B97642 /* BasicUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D9AD7229AC99B00B97642 /* BasicUI.swift */; };
+		FA6D9ADA229AC9E900B97642 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D9AD9229AC9E900B97642 /* UIColorExtension.swift */; };
+		FAD6595C22997430003174EC /* ChatCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6595B22997430003174EC /* ChatCellViewModel.swift */; };
+		FAD6595E22997469003174EC /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6595D22997469003174EC /* Chat.swift */; };
+		FAD65960229976A1003174EC /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6595F229976A1003174EC /* Channel.swift */; };
+		FAD659622299771D003174EC /* ChannelCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD659612299771D003174EC /* ChannelCellViewModel.swift */; };
+		FAD659662299829F003174EC /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD659652299829F003174EC /* UIViewExtension.swift */; };
+		FAD6A846229A886E00FEA74F /* chatMessage.json in Resources */ = {isa = PBXBuildFile; fileRef = FAD6A845229A886E00FEA74F /* chatMessage.json */; };
+		FAD6A848229AA3FA00FEA74F /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6A847229AA3FA00FEA74F /* UIButtonExtension.swift */; };
+		FAD6A84A229AA7DB00FEA74F /* LikeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6A849229AA7DB00FEA74F /* LikeButton.swift */; };
+		FAD6A84C229AA7EB00FEA74F /* LikeButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD6A84B229AA7EB00FEA74F /* LikeButton.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA0769C1229958F500F3A332 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		FA0769C32299623D00F3A332 /* ChatViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewCell.swift; sourceTree = "<group>"; };
+		FA0769C42299623D00F3A332 /* ChatViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewCell.xib; sourceTree = "<group>"; };
+		FA16E850229A0F5000FFF47F /* StreamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewModel.swift; sourceTree = "<group>"; };
+		FA16E852229A131400FFF47F /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		FA16E854229A145B00FFF47F /* channel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = channel.json; sourceTree = "<group>"; };
 		FA220D482296A49A00BDA38F /* StreamViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA220D4B2296A49A00BDA38F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA220D4D2296A49A00BDA38F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FA220D4F2296A49A00BDA38F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FA220D4D2296A49A00BDA38F /* StreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
+		FA220D4F2296A49A00BDA38F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FA220D522296A49A00BDA38F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA220D542296A49C00BDA38F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA220D572296A49C00BDA38F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +66,22 @@
 		FA220D5E2296A49C00BDA38F /* StreamViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA220D622296A49C00BDA38F /* StreamViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewerTests.swift; sourceTree = "<group>"; };
 		FA220D642296A49C00BDA38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA220D702296A9E300BDA38F /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		FA220D722296AA0200BDA38F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FA220D762296AE4300BDA38F /* ChannelViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewCell.swift; sourceTree = "<group>"; };
+		FA220D772296AE4300BDA38F /* ChannelViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelViewCell.xib; sourceTree = "<group>"; };
+		FA6D9AD5229AC49800B97642 /* LikeButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButtonViewModel.swift; sourceTree = "<group>"; };
+		FA6D9AD7229AC99B00B97642 /* BasicUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicUI.swift; sourceTree = "<group>"; };
+		FA6D9AD9229AC9E900B97642 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		FAD6595B22997430003174EC /* ChatCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCellViewModel.swift; sourceTree = "<group>"; };
+		FAD6595D22997469003174EC /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		FAD6595F229976A1003174EC /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		FAD659612299771D003174EC /* ChannelCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCellViewModel.swift; sourceTree = "<group>"; };
+		FAD659652299829F003174EC /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FAD6A845229A886E00FEA74F /* chatMessage.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = chatMessage.json; sourceTree = "<group>"; };
+		FAD6A847229AA3FA00FEA74F /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		FAD6A849229AA7DB00FEA74F /* LikeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButton.swift; sourceTree = "<group>"; };
+		FAD6A84B229AA7EB00FEA74F /* LikeButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikeButton.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +102,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA0769C0229958C100F3A332 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				FA0769C1229958F500F3A332 /* GradientView.swift */,
+				FAD6A849229AA7DB00FEA74F /* LikeButton.swift */,
+				FAD6A84B229AA7EB00FEA74F /* LikeButton.xib */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		FA16E856229A146200FFF47F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FA16E854229A145B00FFF47F /* channel.json */,
+				FAD6A845229A886E00FEA74F /* chatMessage.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		FA220D3F2296A49A00BDA38F = {
 			isa = PBXGroup;
 			children = (
@@ -79,9 +142,12 @@
 		FA220D4A2296A49A00BDA38F /* StreamViewer */ = {
 			isa = PBXGroup;
 			children = (
+				FA16E856229A146200FFF47F /* Resource */,
+				FAD6596322998288003174EC /* Helper */,
+				FA220D6F2296A8EF00BDA38F /* Model */,
+				FA220D6E2296A8ED00BDA38F /* View */,
+				FA220D6D2296A8DC00BDA38F /* ViewModel */,
 				FA220D4B2296A49A00BDA38F /* AppDelegate.swift */,
-				FA220D4D2296A49A00BDA38F /* FirstViewController.swift */,
-				FA220D4F2296A49A00BDA38F /* SecondViewController.swift */,
 				FA220D512296A49A00BDA38F /* Main.storyboard */,
 				FA220D542296A49C00BDA38F /* Assets.xcassets */,
 				FA220D562296A49C00BDA38F /* LaunchScreen.storyboard */,
@@ -97,6 +163,78 @@
 				FA220D642296A49C00BDA38F /* Info.plist */,
 			);
 			path = StreamViewerTests;
+			sourceTree = "<group>";
+		};
+		FA220D6D2296A8DC00BDA38F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA16E850229A0F5000FFF47F /* StreamViewModel.swift */,
+				FAD659612299771D003174EC /* ChannelCellViewModel.swift */,
+				FAD6595B22997430003174EC /* ChatCellViewModel.swift */,
+				FA6D9AD5229AC49800B97642 /* LikeButtonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FA220D6E2296A8ED00BDA38F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA0769C0229958C100F3A332 /* Custom */,
+				FA220D752296ADB300BDA38F /* ViewCell */,
+				FA220D742296AD0D00BDA38F /* OtherScene */,
+				FA220D4D2296A49A00BDA38F /* StreamViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA220D6F2296A8EF00BDA38F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6595F229976A1003174EC /* Channel.swift */,
+				FAD6595D22997469003174EC /* Chat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA220D742296AD0D00BDA38F /* OtherScene */ = {
+			isa = PBXGroup;
+			children = (
+				FA220D4F2296A49A00BDA38F /* SearchViewController.swift */,
+				FA220D702296A9E300BDA38F /* NotificationViewController.swift */,
+				FA220D722296AA0200BDA38F /* ProfileViewController.swift */,
+			);
+			path = OtherScene;
+			sourceTree = "<group>";
+		};
+		FA220D752296ADB300BDA38F /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA220D762296AE4300BDA38F /* ChannelViewCell.swift */,
+				FA220D772296AE4300BDA38F /* ChannelViewCell.xib */,
+				FA0769C32299623D00F3A332 /* ChatViewCell.swift */,
+				FA0769C42299623D00F3A332 /* ChatViewCell.xib */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
+		FAD6596322998288003174EC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6596422998290003174EC /* Extension */,
+				FA16E852229A131400FFF47F /* DataLoader.swift */,
+				FA6D9AD7229AC99B00B97642 /* BasicUI.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FAD6596422998290003174EC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FAD659652299829F003174EC /* UIViewExtension.swift */,
+				FAD6A847229AA3FA00FEA74F /* UIButtonExtension.swift */,
+				FA6D9AD9229AC9E900B97642 /* UIColorExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +318,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD6A84C229AA7EB00FEA74F /* LikeButton.xib in Resources */,
+				FA220D792296AE4300BDA38F /* ChannelViewCell.xib in Resources */,
 				FA220D582296A49C00BDA38F /* LaunchScreen.storyboard in Resources */,
 				FA220D552296A49C00BDA38F /* Assets.xcassets in Resources */,
+				FAD6A846229A886E00FEA74F /* chatMessage.json in Resources */,
+				FA0769C62299623D00F3A332 /* ChatViewCell.xib in Resources */,
 				FA220D532296A49A00BDA38F /* Main.storyboard in Resources */,
+				FA16E855229A145B00FFF47F /* channel.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +343,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA220D502296A49A00BDA38F /* SecondViewController.swift in Sources */,
+				FA0769C52299623D00F3A332 /* ChatViewCell.swift in Sources */,
+				FAD659622299771D003174EC /* ChannelCellViewModel.swift in Sources */,
+				FA220D502296A49A00BDA38F /* SearchViewController.swift in Sources */,
+				FAD65960229976A1003174EC /* Channel.swift in Sources */,
 				FA220D4C2296A49A00BDA38F /* AppDelegate.swift in Sources */,
-				FA220D4E2296A49A00BDA38F /* FirstViewController.swift in Sources */,
+				FA16E853229A131400FFF47F /* DataLoader.swift in Sources */,
+				FAD6595E22997469003174EC /* Chat.swift in Sources */,
+				FA6D9ADA229AC9E900B97642 /* UIColorExtension.swift in Sources */,
+				FA16E851229A0F5000FFF47F /* StreamViewModel.swift in Sources */,
+				FA220D732296AA0200BDA38F /* ProfileViewController.swift in Sources */,
+				FA6D9AD8229AC99B00B97642 /* BasicUI.swift in Sources */,
+				FAD6A848229AA3FA00FEA74F /* UIButtonExtension.swift in Sources */,
+				FA220D712296A9E300BDA38F /* NotificationViewController.swift in Sources */,
+				FA0769C2229958F500F3A332 /* GradientView.swift in Sources */,
+				FA220D782296AE4300BDA38F /* ChannelViewCell.swift in Sources */,
+				FAD659662299829F003174EC /* UIViewExtension.swift in Sources */,
+				FAD6595C22997430003174EC /* ChatCellViewModel.swift in Sources */,
+				FAD6A84A229AA7DB00FEA74F /* LikeButton.swift in Sources */,
+				FA220D4E2296A49A00BDA38F /* StreamViewController.swift in Sources */,
+				FA6D9AD6229AC49800B97642 /* LikeButtonViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
